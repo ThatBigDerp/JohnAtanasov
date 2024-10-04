@@ -11,8 +11,7 @@
 
 }
 
-/* From http://lea.verou.me/css3patterns/ */
-/* Playing with CSS */
+
 body
 {
     /* Fallback */
@@ -182,27 +181,3 @@ main {
         }
     }
 }
-
-/* 
-footer {
-    background-color: #2d343a;
-    grid-area: 4 / 1 / 5 / 7;
-} */
-
-/* #Box1{
-    background-color: rgb(224, 173, 97);
-    width: 100%;
-    height: 500px;
-}
-p{
-    font-size: 50px;
-    color: black;
-}
-
- */
-
- /*strong {
-    color: white;
-
- }
-    Първият електронен компютър, създаден за решаване на системи от линейни уравнения, използващ вакуумни тръби.
