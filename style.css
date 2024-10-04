@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+h1{
+    color: blueviolet;
+    font-size: 25px;
+}
