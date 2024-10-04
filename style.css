@@ -5,8 +5,45 @@
   margin: 0;
 }
 
+/* From http://lea.verou.me/css3patterns/ */
+/* Playing with CSS */
+body
+{
+    background-repeat: repeat;
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 
-h1{
-    color: blueviolet;
-    font-size: 25px;
+    /* Fallback */
+    background-color: #131313; 
+    background-size: 20px 20px;
+
+
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+
+}
+
+header {
+    grid-area: 1 / 1 / 2 / 7;
+
+    & h1 {
+        
+    }
+} 
+
+main {
+    grid-area: 2 / 1 / 3 / 7;
+}
+
+footer {
+    grid-area: 3 / 1 / 4 / 7;
 }
